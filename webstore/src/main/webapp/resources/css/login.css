@@ -1,0 +1,47 @@
+* {
+	font-family: 'Archivo Narrow';
+}
+body{
+ 	background-color: #fbf4f7;
+}
+
+.naslov {
+	font-size: 50px;
+	color: #bca0ad;
+	font-weight: bold;
+	font-family: 'Freestyle Script';
+	float: right;
+}
+
+.naslov:hover {
+	color: #bca0ad;
+}
+.jumbotron {
+	background:
+		url('https://i.pinimg.com/originals/fe/e4/c6/fee4c620ea682072d3e5f8cb777110bb.jpg');
+	background-repeat: no-repeat;
+	background-size: fill;
+	background-size: cover;
+}
+
+.strelica {
+	font-size: 50px;
+	color: #8d7882;
+	display: block;
+	margin-top: 20px;
+}
+
+.podnaslov{
+	font-size: 22px;
+	color: #5e5056;
+}
+.btnLogin{
+ 	background-color:#bca0ad;
+ 	color: white;
+}
+.btnLogin:hover{
+ 	background-color:#bca0ad;
+ 	color: white;text-decoration: none;
+	color: white;
+	background-color: #a48c97;
+}

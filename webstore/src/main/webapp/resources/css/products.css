@@ -1,0 +1,69 @@
+* {
+	font-family: 'Archivo Narrow';
+}
+
+body {
+	background-color: #fbf4f7;
+}
+
+.naslov {
+	font-size: 50px;
+	color: #bca0ad;
+	font-weight: bold;
+	font-family: 'Freestyle Script';
+	float: right;
+}
+.strelica{
+	font-size: 50px;
+	color: #8d7882;
+	display: block;
+	margin-top: 20px;
+}
+.naslov:hover {
+	color: #bca0ad;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bca0ad;
+	text-decoration: none !important;
+}
+
+.jumbotron {
+	background:
+		url('https://i.pinimg.com/originals/fe/e4/c6/fee4c620ea682072d3e5f8cb777110bb.jpg');
+	background-repeat: no-repeat;
+	background-size: fill;
+	background-size: cover;
+}
+
+.btn.icon {
+	margin-top: 20px;
+	color: #75646c;
+	font-size: 30px;
+}
+
+.btn.icon:hover {
+	color: #463c41;
+}
+
+img {
+	min-height: 200px;
+	max-height: 200px;
+	width: 100%;
+}
+
+.details {
+	color: white;
+	font-size: 16px;
+	background-color: #bca0ad;
+	padding: 5px 15px;
+	border-radius: 15px;
+}
+
+.thumbnail {
+	padding: 10px;
+}

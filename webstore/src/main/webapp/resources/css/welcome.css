@@ -1,0 +1,75 @@
+.container {
+	width: 100%;
+	padding-left: 150px;
+}
+
+.bc {
+	background:
+		url('https://i.pinimg.com/originals/fe/e4/c6/fee4c620ea682072d3e5f8cb777110bb.jpg');
+	background-repeat: no-repeat;
+	background-size: fill;
+	background-size: cover;
+}
+
+.naslov {
+	margin-top: 150px;
+	font-size: 70px;
+	color: #bca0ad;
+	font-weight: bold;
+	font-family: 'Freestyle Script';
+}
+
+p {
+	color: #8d7882;
+	font-size: 18px;
+	margin-top: 25px;
+	width: 70%;
+	margin-bottom: 50px;
+	font-family: 'Archivo Narrow';
+}
+
+.main {
+	color: white;
+	font-family: 'Archivo Narrow';
+	font-size: 20px;
+	height: 100px;
+	background-color: #bca0ad;
+	padding: 14px 45px;
+	border-radius: 35px;
+}
+
+.main:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #a48c97;
+}
+
+.sifra {
+	padding: 8px 17px;
+	border-radius: 100px;
+	color: #bca0ad; 
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 8px;	
+	font-family: 'Archivo Narrow';
+}
+
+.sifra:hover {	
+	color: #a48c97;
+	text-decoration: none
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center; position : fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #fbf4f7;
+	color: #bca0ad;
+	text-align: center;
+	height: 50px;
+	position: fixed;
+}
